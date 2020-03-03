@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h1 {
+    color:#1E9585;
+    font-size: 29px;
+    margin: 10px 0 5px 0;
+}
+
+#bem-vindo-subtexto {
+    color: gray;   
+    font-size: 13px; 
+}
+
+#caixa-login {
+    width: 269px;
+    height: 393px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 80px 0 0 200px;
+    padding: 15px 60px;
+    text-align: center;
+}
+
+.inputs {
+    width: calc(100% - 8px);
+    height: 27px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-top: 20px;
+    display: flex;
+    padding: 4px;
+}
+
+.inputs input {
+    width: calc(100% - 14px);
+    border: none;
+    padding-left: 5px;
+    outline: none;
+}
+
+.inputs i {
+    line-height: 27px;
+    color: #1E9585;
+}
+.entrar{
+    width: 100px;
+    height: 25px;
+    background-color: #1E9585;
+    color: #FFF;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.entrar:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+a{
+     text-decoration: none;
+     color: grey;
+     font-size: 14px;
+    }
+
+    #google{
+        
+    height: 57px;
+    }
